@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import hugging_face from "@/public/hugging_face.png";
+import exter_random from "@/public/exter_random.png";
+import smart_bus from "@/public/smart_bus.png";
 
 export const links = [
   {
@@ -35,52 +35,45 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Front-end verifiction intern @ Maven Silicon",
+    location: "Bengaluru, KA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I worked as a front-end verification intern for 3 months. I learned about SystemVerilog, UVM and VLSI design.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Front-End Developer @ Exter ",
+    location: "Bengaluru, KA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 1 year. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 - 2024",
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Admin Application",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    "I served as a full-stack developer for a startup project over the span of one year. Throughout this endeavor, I contributed to the development and implementation of a comprehensive system enabling the efficient management of assets and liabilities for the company.",
+    tags: ["React", "Next.js", "AWS", "Tailwind", "Prisma", "Shadcn"],
+    imageUrl: exter_random,
   },
   {
-    title: "rmtDev",
+    title: "Hate Speech Detection using Transformers",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    "This project emerged as the culmination of my mini-project during my graduation, where I skillfully integrated the principles of Transformers and utilized a dataset sourced from Kaggle. It stands as a testament to my proficiency and serves as a valuable addition to my portfolio.",
+    tags: ["Python", "LLM", "Tensorflow", ],
+    imageUrl: hugging_face,
   },
   {
-    title: "Word Analytics",
+    title: "Smart Bus-Ticketing System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A public web app for buying tickets online. It is Tech-enabling the city transportation.",
+    tags: ["PHP", "MongoDB", "SQL",],
+    imageUrl: smart_bus,
   },
 ] as const;
 
@@ -95,13 +88,12 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
+  "Java",
+  "Spring",
 ] as const;
